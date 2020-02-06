@@ -4,24 +4,29 @@ body {
 
 h1 {
   font-size: xx-large;
+  margin: 0;
 }
 
 h2 {
   font-size: x-large;
   font-weight: 700;
+  margin: 0;
 }
 
 h3 {
   font-size: large;
+  margin: 0;
 }
 
 h4 {
   font-size: medium;
   font-weight: 700;
+  margin: 0;
 }
 
 p {
   font-size: smaller;
+  margin: 0;
 }
 
 nav {
@@ -49,11 +54,14 @@ i {
 .autor_hero {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 15px;
 }
 
 .autor_hero_name {
-  display: flex;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
 }
 
 .autor-hero-btns {
@@ -69,6 +77,16 @@ i {
   padding: auto;
   width: 250px;
   height: auto;
+}
+
+.btn-primary {
+  border-radius: 0;
+  background-color: #95d4e4;
+}
+
+.btn-danger {
+  border-radius: 0;
+  background-color: #ec6464;
 }
 
 /*# sourceMappingURL=style.css.map */
