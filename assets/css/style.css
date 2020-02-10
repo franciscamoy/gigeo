@@ -54,38 +54,34 @@ i {
 .autor_hero {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin-top: 15px;
 }
 
 .autor_hero_name {
   display: flex !important;
   align-items: center !important;
-  justify-content: space-between !important;
-}
-
-.autor-hero-btns {
-  margin-right: 4px;
 }
 
 .rounded-circle {
   width: 50px;
   height: 50px;
+  padding: 4px;
 }
 
 .img_videos {
-  padding: auto;
   width: 250px;
-  height: auto;
+  height: 150px;
 }
 
 .btn-primary {
   border-radius: 0;
+  border: none;
   background-color: #95d4e4;
 }
 
 .btn-danger {
   border-radius: 0;
+  border: none;
   background-color: #ec6464;
 }
 
